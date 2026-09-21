@@ -1,0 +1,15 @@
+# Local credentials (keep the shareable template)
+.env
+.env.*
+!.env.example
+
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Default generated-image output
+generated-images/
+
+# macOS Finder metadata
+.DS_Store
